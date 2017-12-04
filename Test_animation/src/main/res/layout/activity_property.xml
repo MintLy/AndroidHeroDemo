@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.ly.test.PropertyActivity">
+
+    <Button
+        android:id="@+id/btn_testProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="属性动画" />
+
+    <Button
+        android:id="@+id/btn_testOrganizeProperty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="组合属性动画" />
+
+    <Button
+        android:id="@+id/btn_testValueAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试动画值监听" />
+
+    <Button
+        android:id="@+id/btn_testListenerAnimatorEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="监听动画事件" />
+
+    <Button
+        android:id="@+id/btn_testAnimatorSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试多属性动画" />
+
+    <Button
+        android:id="@+id/btn_testXmlAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试xml动画" />
+
+    <Button
+        android:id="@+id/btn_testViewAnimator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试view动画" />
+</LinearLayout>

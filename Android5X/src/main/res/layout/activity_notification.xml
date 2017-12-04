@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.imooc.android5x.notification.NotificationActivity">
+
+    <Button
+        android:id="@+id/btn_testNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test normal notification"/>
+
+    <Button
+        android:id="@+id/btn_testFold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test fold notification"/>
+
+    <Button
+        android:id="@+id/btn_testHand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test Hand notification"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_testGread_private"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="test Gread notification private"/>
+
+        <Button
+            android:id="@+id/btn_testGread_public"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="test Gread notification public"/>
+
+        <Button
+            android:id="@+id/btn_testGread_secret"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="test Gread notification secret"/>
+    </LinearLayout>
+
+</LinearLayout>

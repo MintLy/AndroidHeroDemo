@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_fj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="测试分解模式_有界波纹"/>
+
+    <Button
+        android:id="@+id/btn_hd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:text="测试滑动模式_无界波纹"/>
+
+    <Button
+        android:id="@+id/btn_dr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试淡入模式"/>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="test"
+        android:transitionName="testTransition"/>
+
+</LinearLayout>

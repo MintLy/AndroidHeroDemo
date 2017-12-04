@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.imooc.android5x.circular_reveal.CircularActivity">
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:color/holo_blue_bright"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:stateListAnimator="@drawable/select_change"
+        android:text="testXml"/>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="testCode"/>
+
+    <ImageView
+        android:id="@+id/img_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/select_fram_change"/>
+</LinearLayout>
